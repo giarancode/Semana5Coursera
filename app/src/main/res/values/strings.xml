@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Semana3</string>
+    <string name="ImagenPerro">Perro</string>
+    <string name="TextoNombre">Nombre</string>
+    <string name="hintNumero">#</string>
+    <string name="bienvenido_a_petagram">Bienvenido a Petagram!</string>
+    <string name="todo">TODO</string>
+    <string name="Vamos">Ve a la segunda Actividad</string>
+    <string name="llegaste">Bienvenido a la 2da actividad</string>
+    <string name="estrella">estrellita</string>
+    <string name="trespuntos">Retroceder</string>
+    <string name="petagram">Petagram!</string>
+    <string name="Contacto">Contacto</string>
+    <string name="AcercaDe">Acerca De</string>
+    <string name="formulario_biografico">Formulario Biografico</string>
+    <string name="correo">Correo</string>
+    <string name="mensajeformulario">Escriba aquí.</string>
+    <string name="mensaje"> Mensaje</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="cardViewNombre">NombrePerro</string>
+    <string name="hint_nombre">Nombre Completo</string>
+    <string name="tituloEmail">Gracias por ponerte en contacto, llena los datos requeridos, responderemos pronto.</string>
+    <string name="hint_email">Correo Electronico</string>
+    <string name="hint_mensaje">Mensaje</string>
+    <string name="boton_comentario">Enviar Mensaje</string>
+    <string name="asunto">Asunto</string>
+    <string name="titulo">Este Soy Yo.</string>
+</resources>

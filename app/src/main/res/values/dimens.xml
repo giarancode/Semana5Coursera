@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="tamañoPerro">300sp</dimen>
+    <dimen name="tamañoTextoNombre">25sp</dimen>
+    <dimen name="parameterCardView">4sp</dimen>
+    <dimen name="marginBotton">16sp</dimen>
+    <dimen name="marginNombre">16sp</dimen>
+    <dimen name="marginNumero">60sp</dimen>
+    <dimen name="Titulos">30sp</dimen>
+    <dimen name="distanciaNombreFormulario">30sp</dimen>
+    <dimen name="tamañoMensaje">350sp</dimen>
+    <dimen name="activity_horizontal_margin">16sp</dimen>
+    <dimen name="activity_top_margin">12sp</dimen>
+
+
+</resources>

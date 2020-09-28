@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar2"
+    android:layout_width="match_parent"
+    android:layout_height="?actionBarSize"
+    android:background="@color/colorAccent"
+    android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+    app:logo="@drawable/ic_8991320291579606321">
+    <TextView
+        android:id="@+id/tvTituloToolBar"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="@string/petagram"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:gravity="center_vertical"
+        android:layout_marginStart="80sp"
+        android:layout_marginLeft="80sp"/>
+
+</androidx.appcompat.widget.Toolbar>

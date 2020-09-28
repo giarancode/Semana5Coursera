@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cvTarjetaCardViewInterface2"
+    android:layout_width="120sp"
+    android:layout_height="160sp"
+    app:cardCornerRadius="25sp"
+    app:cardElevation="10sp"
+    android:layout_margin="12dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120sp"
+        android:orientation="vertical"
+        android:background="@color/colorAccent">
+        <ImageView
+            android:id="@+id/ivPerro"
+            android:layout_width="90sp"
+            android:layout_height="90sp"
+            android:src="@drawable/perrito_arreglado_1"
+            android:contentDescription="@string/ImagenPerro"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15sp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:orientation="horizontal"
+        android:layout_marginTop="120sp"
+        tools:ignore="UseCompoundDrawables">
+        <TextView
+            android:id="@+id/tvNumeroPerro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="35sp"
+            android:layout_marginLeft="35sp"
+            android:hint="@string/hintNumero"
+            android:textSize="@dimen/tamañoTextoNombre"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:id="@+id/Huesito_Amarillo"
+            android:layout_width="32sp"
+            android:layout_height="32sp"
+            android:layout_gravity="center"
+            android:layout_marginStart="8sp"
+            android:layout_marginLeft="8sp"
+            android:contentDescription="@string/ImagenPerro"
+            android:src="@drawable/hueso_amarillo" />
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
