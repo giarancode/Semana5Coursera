@@ -3,30 +3,20 @@ package com.example.semana3;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.fragment.app.Fragment;
-import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
-import androidx.viewpager.widget.PagerAdapter;
 import androidx.viewpager.widget.ViewPager;
-import androidx.viewpager2.adapter.StatefulAdapter;
-import androidx.viewpager2.widget.ViewPager2;
 
-import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.AttributeSet;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.widget.Adapter;
 import android.widget.Toast;
 
 
 import com.example.semana3.adaptador.PageAdapter;
 import com.example.semana3.fragment.PerfilFragment;
 import com.example.semana3.fragment.ReciclerViewFragment;
-import com.example.semana3.interfaces.AcercaDe;
-import com.example.semana3.interfaces.Contacto;
-import com.example.semana3.Pojo.InformacionAtributos;
-import com.example.semana3.adaptador.AdaptadorCardView;
+import com.example.semana3.actividades.AcercaDe;
+import com.example.semana3.actividades.Contacto;
 import com.google.android.material.tabs.TabLayout;
 
 import java.util.ArrayList;

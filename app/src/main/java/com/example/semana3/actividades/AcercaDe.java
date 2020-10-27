@@ -1,4 +1,4 @@
-package com.example.semana3.interfaces;
+package com.example.semana3.actividades;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;

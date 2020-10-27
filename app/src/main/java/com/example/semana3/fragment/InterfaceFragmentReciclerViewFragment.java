@@ -5,7 +5,7 @@ import com.example.semana3.adaptador.AdaptadorCardView;
 
 import java.util.ArrayList;
 
-public interface InterfaceImplementsMethodsFragment {
+public interface InterfaceFragmentReciclerViewFragment {
     public void generarVista();
 
     public AdaptadorCardView crearAdaptador(ArrayList<InformacionAtributos> datos);
